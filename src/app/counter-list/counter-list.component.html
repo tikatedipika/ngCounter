@@ -1,0 +1,8 @@
+<div>
+  <h1>{{ name }}</h1>
+  <button type="button" [ngClass]="'btn btn-create'" (click)="create()"> create </button>
+   <div class="grid">
+      <super-counter *ngFor="let sc of supercounter" [counter]="sc"></super-counter>
+  <counter-details *ngFor="let c of counters " [counter]="c"></counter-details>
+</div>
+</div>

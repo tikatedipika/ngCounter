@@ -1,0 +1,29 @@
+#counter{
+   margin: 300px;
+   width: 600px;
+   padding: 50px;
+   border:solid;
+}
+div{
+   width: 700px;
+   border:solid;
+}
+h1{
+padding-left:150px;
+color: cadetblue
+}
+.dot{
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   display: inline-block;
+}
+#red{
+   background-color: rgb(243, 199, 141);
+}
+#green{
+   background-color: rgb(202, 247, 202);
+}
+#yellow{
+   background-color: rgb(253, 253, 146);
+}
